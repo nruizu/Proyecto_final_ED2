@@ -16,19 +16,19 @@ def agregar_personas():
     personas.append( Persona("José", "La Ilíada"))
     return personas
 
-def agregar_libros():
+def crear_grafo():
     grafo = Grafo()
 
-    libro1 = Nodo(1, "El señor de los anillos", "J.R.R. Tolkien", 1954, "Fantasía")
-    libro2 = Nodo(2, "Harry Potter y la piedra filosofal", "J.K. Rowling", 1997, "Fantasía")
-    libro3 = Nodo(3, "El código Da Vinci", "Dan Brown", 2003, "Misterio")
-    libro4 = Nodo(4, "El alquimista", "Paulo Coelho", 1988, "Novela")
-    libro5 = Nodo(5, "El principito", "Antoine de Saint-Exupéry", 1943, "Fábula")
-    libro6 = Nodo(6, "Cien años de soledad", "Gabriel García Márquez", 1967, "Novela")
-    libro7 = Nodo(7, "Don Quijote de la Mancha", "Miguel de Cervantes", 1605, "Novela")
-    libro8 = Nodo(8, "El retrato de Dorian Gray", "Oscar Wilde", 1890, "Novela")
-    libro9 = Nodo(9, "La Odisea", "Homero", -800., "Épico")
-    libro10 = Nodo(10, "La Ilíada", "Homero", -800, "Épico")
+    libro1 = Nodo(1, "El señor de los anillos", "J.R.R. Tolkien", 1954, "Fantasía", 5)
+    libro2 = Nodo(2, "Harry Potter y la piedra filosofal", "J.K. Rowling", 1997, "Fantasía", 10)
+    libro3 = Nodo(3, "El código Da Vinci", "Dan Brown", 2003, "Misterio", 15)
+    libro4 = Nodo(4, "El alquimista", "Paulo Coelho", 1988, "Novela", 3)
+    libro5 = Nodo(5, "Harry Potter y la cámara secreta", "J.K. Rowling", 1998, "Fantasía", 10)
+    libro6 = Nodo(6, "Cien años de soledad", "Gabriel García Márquez", 1967, "Novela", 1)
+    libro7 = Nodo(7, "Don Quijote de la Mancha", "Miguel de Cervantes", 1605, "Novela",6)
+    libro8 = Nodo(8, "El retrato de Dorian Gray", "Oscar Wilde", 1890, "Novela", 4)
+    libro9 = Nodo(9, "La Odisea", "Homero", -800., "Épico",6)
+    libro10 = Nodo(10, "La Ilíada", "Homero", -800, "Épico", 3)
 
     grafo.agregar_libro(libro1)
     grafo.agregar_libro(libro2)
@@ -40,10 +40,28 @@ def agregar_libros():
     grafo.agregar_libro(libro8)
     grafo.agregar_libro(libro9)
     grafo.agregar_libro(libro10)
+
+    grafo.agregar_aristas(libro1)
+    grafo.agregar_aristas(libro2)
+    grafo.agregar_aristas(libro3)
+    grafo.agregar_aristas(libro4)
+    grafo.agregar_aristas(libro5)
+    grafo.agregar_aristas(libro6)
+    grafo.agregar_aristas(libro7)
+    grafo.agregar_aristas(libro8)
+    grafo.agregar_aristas(libro9)
+    grafo.agregar_aristas(libro10)
     return grafo
+
 
 if __name__ == "__main__":
     personas = agregar_personas()
-    grafo = agregar_libros()
+    grafo = crear_grafo()
 
+    persona = input("Ingrese su nombre: ")
+
+    for x in personas:
+        if x.nombre_persona == persona:
+            lended_book = x.libro_prestado
+            break
     
