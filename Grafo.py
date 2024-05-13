@@ -9,7 +9,7 @@ class Grafo:
         self.libros[libro.id] = libro
         
     def agregar_aristas(self, nodo):
-        for i in range(len(self.libros)):
+        for i in range(1, len(self.libros)+1):
             peso = 0
             if nodo.id == self.libros[i].id:
                 continue
@@ -26,8 +26,5 @@ class Grafo:
             if nodo.autor == self.libros[i].autor:
                 peso += 3
             
-            arista = Arista(nodo, self.libro[i], peso)
+            arista = Arista(nodo, self.libros[i], peso)
             self.aristas.append(arista)
-        
-    def __str__(self):
-        return f'ARISTA : [{self.nodo_inicio} <--> {self.nodo_destino}:: w:{self.peso}]'

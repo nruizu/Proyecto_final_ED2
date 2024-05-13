@@ -53,6 +53,9 @@ def crear_grafo():
     grafo.agregar_aristas(libro10)
     return grafo
 
+def comparar_peso(a):
+    return a.peso
+
 
 if __name__ == "__main__":
     personas = agregar_personas()
@@ -62,6 +65,27 @@ if __name__ == "__main__":
 
     for x in personas:
         if x.nombre_persona == persona:
-            lended_book = x.libro_prestado
+            persona = x
             break
-    
+
+    lended_book = persona.libro_prestado
+    for i in grafo.libros.values():
+        if i.nombre == lended_book:
+            lended_book = i
+            break
+
+    recomendaciones = []
+    for i in grafo.aristas:
+        #si el peso es 0 no se recomienda ya que no estan relacionados
+        if i.peso == 0:
+            continue
+        if i.origen == lended_book:
+            recomendaciones.append(i)
+
+    recomendaciones.sort(key=comparar_peso)
+
+    print("Te podrian interesar los siguientes libros: ")
+    cont = 1
+    for i in recomendaciones:
+        print(f"{cont}. {i.destino}\n")
+        cont +=1
