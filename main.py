@@ -83,6 +83,7 @@ if __name__ == "__main__":
             recomendaciones.append(i)
 
     recomendaciones.sort(key=comparar_peso)
+    recomendaciones.reverse()
 
     print("Te podrian interesar los siguientes libros: ")
     cont = 1
