@@ -1,0 +1,140 @@
+id,titulo,autor,anio,genero,numero_aleatorio
+1,El señor de los anillos,J.R.R. Tolkien,1954,Fantasía,28
+2,1984,George Orwell,1949,Ciencia Ficción,43
+3,Cien años de soledad,Gabriel García Márquez,1967,Realismo Mágico,6
+4,Don Quijote de la Mancha,Miguel de Cervantes,1605,Clásico,46
+5,Matar a un ruiseñor,Harper Lee,1960,Drama,30
+6,Orgullo y prejuicio,Jane Austen,1813,Romántico,4
+7,Guerra y paz,León Tolstói,1869,Épico,22
+8,Ulises,James Joyce,1922,Aventura,10
+9,En busca del tiempo perdido,Marcel Proust,1913,Ficción Histórica,33
+10,El proceso,Franz Kafka,1925,Filosofía,48
+11,La metamorfosis,Franz Kafka,1915,Existencialismo,38
+12,El gran Gatsby,F. Scott Fitzgerald,1925,Drama,5
+13,La Odisea,Homero,-800,Épico,16
+14,Crimen y castigo,Fiódor Dostoyevski,1866,Filosofía,46
+15,Los hermanos Karamázov,Fiódor Dostoyevski,1880,Existencialismo,43
+16,El principito,Antoine de Saint-Exupéry,1943,Aventura,7
+17,La divina comedia,Dante Alighieri,1320,Poesía,19
+18,Madame Bovary,Gustave Flaubert,1857,Realismo,11
+19,Los miserables,Victor Hugo,1862,Ficción Histórica,23
+20,Fausto,Johann Wolfgang von Goethe,1808,Drama,12
+21,El nombre de la rosa,Umberto Eco,1980,Misterio,45
+22,El guardián entre el centeno,J.D. Salinger,1951,Drama,33
+23,Frankenstein,Mary Shelley,1818,Horror,34
+24,El retrato de Dorian Gray,Oscar Wilde,1890,Ficción Gótica,4
+25,Drácula,Bram Stoker,1897,Horror,30
+26,Moby Dick,Herman Melville,1851,Aventura,8
+27,El conde de Montecristo,Alexandre Dumas,1844,Aventura,16
+28,La isla del tesoro,Robert Louis Stevenson,1883,Aventura,25
+29,Jane Eyre,Charlotte Brontë,1847,Drama,45
+30,Anna Karenina,León Tolstói,1877,Drama,9
+31,El sonido y la furia,William Faulkner,1929,Drama,20
+32,Las mil y una noches,Anónimo,1706,Cuentos,12
+33,La guerra de los mundos,H.G. Wells,1898,Ciencia Ficción,8
+34,El Hobbit,J.R.R. Tolkien,1937,Fantasía,1
+35,La Iliada,Homero,-750,Épico,11
+36,Cumbres Borrascosas,Emily Brontë,1847,Drama,12
+37,Alicia en el país de las maravillas,Lewis Carroll,1865,Fantasía,5
+38,Los viajes de Gulliver,Jonathan Swift,1726,Aventura,40
+39,Peter Pan,J.M. Barrie,1911,Fantasía,28
+40,La máquina del tiempo,H.G. Wells,1895,Ciencia Ficción,11
+41,20.000 leguas de viaje submarino,Julio Verne,1870,Aventura,36
+42,Fahrenheit 451,Ray Bradbury,1953,Ciencia Ficción,8
+43,Crónica de una muerte anunciada,Gabriel García Márquez,1981,Drama,17
+44,El perfume,Patrick Süskind,1985,Drama,36
+45,La casa de los espíritus,Isabel Allende,1982,Realismo Mágico,48
+46,Memorias de una geisha,Arthur Golden,1997,Ficción Histórica,41
+47,El código Da Vinci,Dan Brown,2003,Misterio,6
+48,El alquimista,Paulo Coelho,1988,Aventura,7
+49,Los pilares de la tierra,Ken Follett,1989,Ficción Histórica,12
+50,La sombra del viento,Carlos Ruiz Zafón,2001,Misterio,33
+51,La catedral del mar,Ildefonso Falcones,2006,Ficción Histórica,45
+52,La tregua,Mario Benedetti,1960,Drama,42
+53,El diario de Ana Frank,Ana Frank,1947,Autobiografía,41
+54,Harry Potter y la piedra filosofal,J.K. Rowling,1997,Fantasía,3
+55,La ladrona de libros,Markus Zusak,2005,Ficción Histórica,16
+56,La carretera,Cormac McCarthy,2006,Post-apocalíptico,49
+57,La guerra no tiene rostro de mujer,Svetlana Alexievich,1983,No Ficción,16
+58,Matar a un ruiseñor,Harper Lee,1960,Drama,49
+59,El amor en los tiempos del cólera,Gabriel García Márquez,1985,Romance,41
+60,La Odisea,Homero,-800,Épico,6
+61,El cuento de la criada,Margaret Atwood,1985,Ciencia Ficción,16
+62,El club de la lucha,Chuck Palahniuk,1996,Drama,12
+63,Rebelión en la granja,George Orwell,1945,Satira,9
+64,El nombre del viento,Patrick Rothfuss,2007,Fantasía,21
+65,Ready Player One,Ernest Cline,2011,Ciencia Ficción,15
+66,El marciano,Andy Weir,2011,Ciencia Ficción,45
+67,La chica del tren,Paula Hawkins,2015,Thriller,15
+68,Dune,Frank Herbert,1965,Ciencia Ficción,6
+69,El juego de Ender,Orson Scott Card,1985,Ciencia Ficción,32
+70,La historia interminable,Michael Ende,1979,Fantasía,33
+71,La torre oscura,Stephen King,1982,Fantasía,3
+72,American Gods,Neil Gaiman,2001,Fantasía,45
+73,Buenos presagios,Neil Gaiman & Terry Pratchett,1990,Fantasía,31
+74,Neuromante,William Gibson,1984,Ciencia Ficción,2
+75,El hombre en el castillo,Philip K. Dick,1962,Ciencia Ficción,13
+76,El cuento de invierno,William Shakespeare,1623,Drama,27
+77,Macbeth,William Shakespeare,1623,Tragedia,23
+78,Hamlet,William Shakespeare,1600,Tragedia,19
+79,Romeo y Julieta,William Shakespeare,1597,Tragedia,32
+80,Mucho ruido y pocas nueces,William Shakespeare,1600,Comedia,39
+81,Sueño de una noche de verano,William Shakespeare,1595,Comedia,5
+82,El retrato de Dorian Gray,Oscar Wilde,1890,Ficción Gótica,40
+83,Drácula,Bram Stoker,1897,Horror,35
+84,Moby Dick,Herman Melville,1851,Aventura,24
+85,El conde de Montecristo,Alexandre Dumas,1844,Aventura,44
+86,La isla del tesoro,Robert Louis Stevenson,1883,Aventura,41
+87,Jane Eyre,Charlotte Brontë,1847,Drama,42
+88,Anna Karenina,León Tolstói,1877,Drama,44
+89,El sonido y la furia,William Faulkner,1929,Drama,1
+90,Las mil y una noches,Anónimo,1706,Cuentos,42
+91,La guerra de los mundos,H.G. Wells,1898,Ciencia Ficción,16
+92,El Hobbit,J.R.R. Tolkien,1937,Fantasía,2
+93,La Iliada,Homero,-750,Épico,36
+94,Cumbres Borrascosas,Emily Brontë,1847,Drama,19
+95,Alicia en el país de las maravillas,Lewis Carroll,1865,Fantasía,6
+96,Los viajes de Gulliver,Jonathan Swift,1726,Aventura,26
+97,Peter Pan,J.M. Barrie,1911,Fantasía,29
+98,La máquina del tiempo,H.G. Wells,1895,Ciencia Ficción,27
+99,20.000 leguas de viaje submarino,Julio Verne,1870,Aventura,16
+100,Fahrenheit 451,Ray Bradbury,1953,Ciencia Ficción,46
+101,Crónica de una muerte anunciada,Gabriel García Márquez,1981,Drama,48
+102,El perfume,Patrick Süskind,1985,Drama,50
+103,La casa de los espíritus,Isabel Allende,1982,Realismo Mágico,10
+104,Memorias de una geisha,Arthur Golden,1997,Ficción Histórica,1
+105,El código Da Vinci,Dan Brown,2003,Misterio,13
+106,El alquimista,Paulo Coelho,1988,Aventura,37
+107,Los pilares de la tierra,Ken Follett,1989,Ficción Histórica,4
+108,La sombra del viento,Carlos Ruiz Zafón,2001,Misterio,48
+109,La catedral del mar,Ildefonso Falcones,2006,Ficción Histórica,43
+110,La tregua,Mario Benedetti,1960,Drama,48
+111,El diario de Ana Frank,Ana Frank,1947,Autobiografía,36
+112,Harry Potter y la piedra filosofal,J.K. Rowling,1997,Fantasía,29
+113,La ladrona de libros,Markus Zusak,2005,Ficción Histórica,50
+114,La carretera,Cormac McCarthy,2006,Post-apocalíptico,8
+115,La guerra no tiene rostro de mujer,Svetlana Alexievich,1983,No Ficción,21
+116,Matar a un ruiseñor,Harper Lee,1960,Drama,10
+117,El amor en los tiempos del cólera,Gabriel García Márquez,1985,Romance,30
+118,La Odisea,Homero,-800,Épico,41
+119,El cuento de la criada,Margaret Atwood,1985,Ciencia Ficción,9
+120,El club de la lucha,Chuck Palahniuk,1996,Drama,16
+121,Rebelión en la granja,George Orwell,1945,Satira,17
+122,El nombre del viento,Patrick Rothfuss,2007,Fantasía,8
+123,Ready Player One,Ernest Cline,2011,Ciencia Ficción,4
+124,El marciano,Andy Weir,2011,Ciencia Ficción,13
+125,La chica del tren,Paula Hawkins,2015,Thriller,40
+126,Dune,Frank Herbert,1965,Ciencia Ficción,18
+127,El juego de Ender,Orson Scott Card,1985,Ciencia Ficción,41
+128,La historia interminable,Michael Ende,1979,Fantasía,40
+129,La torre oscura,Stephen King,1982,Fantasía,2
+130,American Gods,Neil Gaiman,2001,Fantasía,50
+131,Buenos presagios,Neil Gaiman & Terry Pratchett,1990,Fantasía,44
+132,Neuromante,William Gibson,1984,Ciencia Ficción,7
+133,El hombre en el castillo,Philip K. Dick,1962,Ciencia Ficción,41
+134,El cuento de invierno,William Shakespeare,1623,Drama,23
+135,Macbeth,William Shakespeare,1623,Tragedia,44
+136,Hamlet,William Shakespeare,1600,Tragedia,4
+137,Romeo y Julieta,William Shakespeare,1597,Tragedia,25
+138,Mucho ruido y pocas nueces,William Shakespeare,1600,Comedia,23
+139,Sueño de una noche de verano,William Shakespeare,1595,Comedia,20
